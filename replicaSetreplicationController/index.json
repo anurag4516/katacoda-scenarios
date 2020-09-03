@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding ReplicaSets & Replication Controllers ",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -19,15 +19,15 @@
             "text": "Login.md"
         },
                  {
-            "title": "Check User & Permissions",
+            "title": "Replicasets",
             "text": "User.md"
         },
                   {
-            "title": "Create a Project",
+            "title": "Replication Controller",
             "text": "Project.md"
         },
                   {
-            "title": "Deploy a template ",
+            "title": "Comparison b/w both  ",
             "text": "Deploy.md"
         }           
                 ],
