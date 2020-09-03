@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Users /RBAC & Service Accounts",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -23,11 +23,11 @@
             "text": "User.md"
         },
                   {
-            "title": "Create a Project",
+            "title": "Understanding RBAC",
             "text": "Project.md"
         },
                   {
-            "title": "Deploy a template ",
+            "title": "Understanding Service accounts ",
             "text": "Deploy.md"
         }           
                 ],
