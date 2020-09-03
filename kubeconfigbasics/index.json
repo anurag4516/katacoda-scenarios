@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Logging to Openshift & Understand Kubeconfig ",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -19,18 +19,10 @@
             "text": "Login.md"
         },
                  {
-            "title": "Check User & Permissions",
+            "title": "Understand Kubeconfig",
             "text": "User.md"
-        },
-                  {
-            "title": "Create a Project",
-            "text": "Project.md"
-        },
-                  {
-            "title": "Deploy a template ",
-            "text": "Deploy.md"
-        }           
-                ],
+        }
+                 ],
         "intro": {
             "code": "set-env.sh",
             "text": "intro.md"
