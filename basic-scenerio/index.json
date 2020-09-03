@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding K8s components in Openshift ",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -19,17 +19,21 @@
             "text": "Login.md"
         },
                  {
-            "title": "Check User & Permissions",
+            "title": "Understand Controllers ",
             "text": "User.md"
         },
                   {
-            "title": "Create a Project",
+            "title": "Understand Schedular's ",
             "text": "Project.md"
         },
                   {
-            "title": "Deploy a template ",
+            "title": "Understand Etcd ",
             "text": "Deploy.md"
-        }           
+        } ,
+                   {
+            "title": "Understand Kubelet & kubeproxy ",
+            "text": "kubelet.md"
+        }          
                 ],
         "intro": {
             "code": "set-env.sh",
