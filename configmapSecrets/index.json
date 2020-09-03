@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding ConfigMaps & Secrets",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -19,17 +19,13 @@
             "text": "Login.md"
         },
                  {
-            "title": "Check User & Permissions",
+            "title": "ConfigMaps",
             "text": "User.md"
         },
                   {
-            "title": "Create a Project",
+            "title": "Secrets",
             "text": "Project.md"
-        },
-                  {
-            "title": "Deploy a template ",
-            "text": "Deploy.md"
-        }           
+        }         
                 ],
         "intro": {
             "code": "set-env.sh",
