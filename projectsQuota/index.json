@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):OC client basic commands ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Project Quotas ",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -18,16 +18,13 @@
             "title": "Login to Cluster",
             "text": "Login.md"
         },
-                 {
-            "title": "Check User & Permissions",
-            "text": "User.md"
-        },
+                 
                   {
             "title": "Create a Project",
             "text": "Project.md"
         },
                   {
-            "title": "Deploy a template ",
+            "title": "Understading Project quotas ",
             "text": "Deploy.md"
         }           
                 ],
