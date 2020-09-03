@@ -1,0 +1,46 @@
+{
+    "icon": "fa-openshift",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding K8s components in Openshift ",
+    "description": "",
+    "pathwayTitle": "OpenShift",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "openshift-4-2"
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "Login to Cluster",
+            "text": "Login.md"
+        },
+                 {
+            "title": "Understand Controllers ",
+            "text": "User.md"
+        },
+                  {
+            "title": "Understand Schedular's ",
+            "text": "Project.md"
+        },
+                  {
+            "title": "Understand Etcd ",
+            "text": "Deploy.md"
+        } ,
+                   {
+            "title": "Understand Kubelet & kubeproxy ",
+            "text": "kubelet.md"
+        }          
+                ],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    }
+}
