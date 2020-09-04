@@ -1,37 +1,40 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):Deployments & Deployment Config ",
+    "title": "Cloud Passion Using OpenShift metrics: HPA",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
-    "time": "60 minutes",
+    "time": "20-30 minutes",
     "backend": {
-        "imageid": "openshift-4-2"
+        "imageid": "openshift-36-metrics",
+        "port": 8443
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
-        "uilayout": "terminal-iframe"
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
     },
     "details": {
         "steps": [{
-            "title": "Login to Cluster",
-            "text": "Login.md"
-        },
-                 {
-            "title": "Check User & Permissions",
-            "text": "User.md"
-        },
-                  {
-            "title": "Create a Project",
-            "text": "Project.md"
-        },
-                  {
-            "title": "Deploy a template ",
-            "text": "Deploy.md"
-        }           
-                ],
+            "title": "Step 1 - Check metrics",
+            "text": "1check-metrics.md"
+        }, {
+            "title": "Step 2 - Deploy a sample application",
+            "text": "2sample-application.md"
+        }, {
+            "title": "Step 3 - Create HPA",
+            "text": "3create-hpa.md"
+        }, {
+            "title": "Step 4 - Explore HPA",
+            "text": "4explore-hpa.md"
+        }, {
+            "title": "Step 5 - Use HPA",
+            "text": "5use-hpa.md"
+        }],
         "intro": {
+            "courseData": "env-init.sh",
             "code": "set-env.sh",
             "text": "intro.md"
         },
