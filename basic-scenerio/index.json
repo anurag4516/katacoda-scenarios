@@ -19,21 +19,10 @@
             "text": "Login.md"
         },
                  {
-            "title": "Understand Controllers ",
+            "title": "Understand Components Deployed ",
             "text": "User.md"
-        },
-                  {
-            "title": "Understand Schedular's ",
-            "text": "Project.md"
-        },
-                  {
-            "title": "Understand Etcd ",
-            "text": "Deploy.md"
-        } ,
-                   {
-            "title": "Understand Kubelet & kubeproxy ",
-            "text": "kubelet.md"
-        }          
+        }
+                
                 ],
         "intro": {
             "code": "set-env.sh",
