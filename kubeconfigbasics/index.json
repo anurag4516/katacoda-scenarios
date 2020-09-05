@@ -15,11 +15,11 @@
     },
     "details": {
         "steps": [{
-            "title": "Login to Cluster",
+            "title": "Kubeconfig Basics",
             "text": "Login.md"
         },
                  {
-            "title": "Understand Kubeconfig",
+            "title": "Kube config Commands",
             "text": "User.md"
         }
                  ],
