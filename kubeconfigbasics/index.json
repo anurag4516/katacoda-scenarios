@@ -15,11 +15,11 @@
     },
     "details": {
         "steps": [{
-            "title": "Kubeconfig Basics",
+            "title": "View Kubeconfit File",
             "text": "Login.md"
         },
                  {
-            "title": "Kube config Commands",
+            "title": "Understand Kubeconfig",
             "text": "User.md"
         }
                  ],
