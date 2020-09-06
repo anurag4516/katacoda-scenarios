@@ -18,10 +18,6 @@
             "title": "Login to Cluster",
             "text": "Login.md"
         },
-                 {
-            "title": "Projects & namespaces",
-            "text": "User.md"
-        },
                   {
             "title": "Understanding pods",
             "text": "Project.md"
