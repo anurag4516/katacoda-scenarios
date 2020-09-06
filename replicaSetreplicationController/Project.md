@@ -1,23 +1,37 @@
-# Create a new Project 
+# Replica Sets
 
-`oc new-project demo --display-name='My Project' --description='cool project owned by myuser `{{execute}}
+### Clone repo 
+`git clone https://github.com/cloudpassion1801/openshiftResources.git`{{execute}}
 
-# Build a new app via oc client 
-`oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git` {{execute}}
+`cd openshiftResources`{{execute}}
 
-# Get project details in YAML
-` oc get project myproject1 -o yaml` {{execute}}
+### Create 2 Pods 
+`oc create -f pod.yaml`{{execute}}
 
-# Get all running resources 
-` oc get all`{{execute}}
+See the labels of Pods
+`oc get pods --show-labels`{{execute}}
 
-# Get all Pods
-` oc get all`{{execute}}
+2 Type of lAbels are present 
+app=myapp1,tier=frontend
+app=myapp2,tier=frontend
 
-# See if a deployment Config is created 
-`oc get dc ` {{execute}}
-`oc describe dc ruby-ex ` {{execute}}
+### View ReplicaSet Yaml 
+`cat replicaSet.yml`{{execute}}
 
-# Switch back to default project
+--> Selects all pods with selector app=myapp1 & replicas =3
 
-`oc project default` {{execute}}
+`oc create -f replicaSet.yml`{{execute}}
+
+View New Pods created
+`oc get pods --show-labels`{{execute}}
+Verify it has only triggered 2 more pods .. Acquired a previous Pod 
+`oc describe pod testpod1 | grep Controlled`{{execute}}
+Verify it is controlled by ReplicaSet
+
+
+## Clear Resources
+`oc delete rs frontend`{{execute}}
+`oc get pods --show-labels`{{execute}}
+Verify 3 Pods are deleted
+
+`oc delete pod testpod2`{{execute}}
