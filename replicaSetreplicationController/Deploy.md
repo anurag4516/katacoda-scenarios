@@ -1,8 +1,21 @@
-# STart a new  build
-`oc start-build ruby-ex`{{execute}}
+# Comparison b/w both
 
-# Watch a build 
-`oc logs -f bc/ruby-ex`{{execute}}
+`oc create -f pod.yaml`{{execute}}
+`oc get pods --show-labels`{{execute}}
 
-# Interacting directly with the container is simple with oc rsh
-oc rsh podName
+We want condition like And OR 
+Replicaset Should Capture Pods which have either Label app=myapp1 Or app=myapp2
+
+## Create a ReplicaSet
+`cat replicaSet1.yaml`{{execute}}
+
+See the selector Section use Set based Selection
+
+`oc create -f replicaSet1.yaml`{{execute}}
+
+## View Pods
+
+`oc get pods --show-labels`{{execute}} 
+
+No New Pods are created due to set based approach of Replica Sets
+
