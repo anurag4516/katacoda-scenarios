@@ -21,10 +21,6 @@ Verify that now 2 users are present
 
 `oc get sa `{{execute}}
 
-# Logout from Cluster
-
-`oc logout `{{execute}}
-
 
 
 
