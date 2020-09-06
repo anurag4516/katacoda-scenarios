@@ -12,8 +12,16 @@ In this section We will Add view role to Service Account
 
 
 
+# Now Login via SA
+
+`oc login --token=$my_token_details`{{execute}}
+
 # Verify that it is able to view project
+`oc projects`{{execute}}
+
+Validate if it is able to see demo project
 
 
-# Interacting directly with the container is simple with oc rsh
+
+
 
