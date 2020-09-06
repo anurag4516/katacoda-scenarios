@@ -1,23 +1,31 @@
-# Create a new Project 
+# Understanding Service Account
 
-`oc new-project demo --display-name='My Project' --description='cool project owned by myuser `{{execute}}
+## Create project
+`oc new-project demo` {{execute}}
 
-# Build a new app via oc client 
-`oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git` {{execute}}
+## Create a sa in Project
 
-# Get project details in YAML
-` oc get project myproject1 -o yaml` {{execute}}
+`oc create sa robot -n demo ` {{execute}}
 
-# Get all running resources 
-` oc get all`{{execute}}
+## Undestand the SA
 
-# Get all Pods
-` oc get all`{{execute}}
+`oc describe sa robot -n demo ` {{execute}}
 
-# See if a deployment Config is created 
-`oc get dc ` {{execute}}
-`oc describe dc ruby-ex ` {{execute}}
+Verify token fiedl is attached , it is this token by which a SA can communicate to cluster 
 
-# Switch back to default project
 
-`oc project default` {{execute}}
+## Get token details 
+
+ `oc describe sa robot -n demo | grep robot-token | awk '{print $1;exit}'`  {{execute}}
+ 
+ 
+`export my_token_name= `oc describe sa robot -n demo | grep robot-token | awk '{print $1;exit}'` ` {{execute}}
+
+## get exact token 
+
+`oc describe secret $my_token_name` {{execute}}
+
+`export my_token_details=`oc describe secret $my_token_name | grep token: |awk '{print $2 }'` ` {{execute}}
+
+## Login via SA
+`oc login --token=$my_token_details` {{execute}}
