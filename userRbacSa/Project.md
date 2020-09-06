@@ -18,14 +18,12 @@ Verify token fiedl is attached , it is this token by which a SA can communicate 
 
  `oc describe sa robot -n demo | grep robot-token | awk '{print $1;exit}'`{{execute}}
  
- 
-`export my_token_name= `oc describe sa robot -n demo | grep robot-token | awk '{print $1;exit}'` `{{execute}}
+export my_token_name=`oc describe sa robot -n demo | grep robot-token | awk '{print $1;exit}'`
 
 ## get exact token 
 
-`oc describe secret $my_token_name` {{execute}}
+`oc describe secret $my_token_name`{{execute}}
 
-`export my_token_details=`oc describe secret $my_token_name | grep token: |awk '{print $2 }'` `{{execute}}
-
+export my_token_details=`oc describe secret $my_token_name | grep token: |awk '{print $2 }'` 
 ## Login via SA
 `oc login --token=$my_token_details`{{execute}}
