@@ -1,23 +1,35 @@
-# Create a new Project 
+# Understanding Pods
 
-`oc new-project demo --display-name='My Project' --description='cool project owned by myuser `{{execute}}
+## Clone beow repo 
+`git clone https://github.com/cloudpassion1801/openshiftResources.git`{{execute}}
+Change Directory
 
-# Build a new app via oc client 
-`oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git` {{execute}}
+`cd openshiftResources `{{execute}}
 
-# Get project details in YAML
-` oc get project myproject1 -o yaml` {{execute}}
+## View Pod Yaml 
 
-# Get all running resources 
-` oc get all`{{execute}}
+`cat pod.yaml`{{execute}} 
 
-# Get all Pods
-` oc get all`{{execute}}
+Verify names of Pods 
+Find Image to be used in both Pods
+Find Command to be executed in Both Pods
 
-# See if a deployment Config is created 
-`oc get dc ` {{execute}}
-`oc describe dc ruby-ex ` {{execute}}
+## Create Pod
+`oc create -f pod.yaml`{{execute}}
 
-# Switch back to default project
 
-`oc project default` {{execute}}
+## Get all Pods
+` oc get pods`{{execute}}
+
+Verify Name of Both pods is same as given in Yaml .
+Verify the status and wait till status is running
+
+## See Pod details
+`oc describe pod testpod1`{{execute}}
+`oc get pod testpod1 -o yaml`{{execute}}
+
+Change Commandd of First Pod 
+`oc edit pod testpod1`{{execute}}
+
+## Verify Pod Logs
+`oc logs testpod1`{{execue}}
