@@ -2,23 +2,29 @@
 
 `oc whoami `{{execute}}
 
+Check that YOu are login as a admin
+
+## Check what users are avialable 
+
+`oc get users `{{execute}}
+
+Verify that Identity as htpassword_provider
+
+# Perform Web Console activities 
+Step 1 : Login As developer/developer
+
+`oc get users `{{execute}}
+
+Verify that now 2 users are present 
+
+## Verify default service accounts 
+
+`oc get sa `{{execute}}
+
 # Logout from Cluster
 
 `oc logout `{{execute}}
 
-# Login as admin user via token 
-
-Step1 : Open web console via user/password --> admin/admin
-Step 2: Go to extreme right click on admin --> Click Copy Login Command 
-Step 3 : Click on Display Token . 
-Step 4 : Copy command and paste in Terminal and click enter to login
-
-# Get list of Projects 
-`oc get projects `{{execute}}
-
-# Get current Project
-
-`oc project `{{execute}}
 
 
 
