@@ -1,23 +1,27 @@
 # Create a new Project 
 
-`oc new-project demo --display-name='My Project' --description='cool project owned by myuser `{{execute}}
+`oc new-project advanced --display-name='My Project' --description='cool project owned by myuser `{{execute}}
 
-# Build a new app via oc client 
-`oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git` {{execute}}
+One of the main ideas behind OpenShift projects in multi-tenant environments is the need to limit resource consumption at a more granular level than just a whole cluster, providing operations with the ability to scope such limitations to organizations and departments.
 
-# Get project details in YAML
-` oc get project myproject1 -o yaml` {{execute}}
+OpenShift provides two mechanisms for setting limits on resource consumption in a cluster:
 
-# Get all running resources 
-` oc get all`{{execute}}
+ResourceQuota
+LimitRanges
 
-# Get all Pods
-` oc get all`{{execute}}
+# Controlling resource consumption using ResourceQuotas
+ResourceQuota can be used to control the number of API resources that can be created, or the amount of CPU, memory, and storage consumed by pods in the same project the quotas were defined in. Essentially, they determine the capacity of a project
 
-# See if a deployment Config is created 
-`oc get dc ` {{execute}}
-`oc describe dc ruby-ex ` {{execute}}
+Note: If CPU/memory or limits.cpu/limits.memory are managed by quotas, then all pods in the same project must specify requests/limits for the respective computing resources.
 
-# Switch back to default project
+## Create Quota
+`oc create quota my-quota --hard=cpu=500m,memory=256Mi,pods=1,resourcequotas=1`{{execute}}
 
-`oc project default` {{execute}}
+`oc describe quota/my-quota`{{execute}}
+
+By creating this quota, we have set the limits of 500 CPU millicores (half-core), 256Mi requested RAM, 1 pod, and 1 ResourceQuota on the current project. Let's see if the quota is in effect.
+
+### Clone project
+`git clone https://github.com/cloudpassion1801/quotas.git`{{execute}}
+`cd quotas`{{execute}}
+
