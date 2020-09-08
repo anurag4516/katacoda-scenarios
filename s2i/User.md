@@ -22,6 +22,8 @@ Verify strategy /URL / Build section
 `oc describe build nodejs-ex-1`{{execute}}
 
 Verify Events section 
+`oc get pods`{{execute}}
+Wait till you get 3 pods and one pod is in running status
 
 ## Verify image Stream is there 
 `oc describe is nodejs-ex`{{execute}}
