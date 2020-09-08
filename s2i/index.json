@@ -23,17 +23,9 @@
             "text": "User.md"
         },
                   {
-            "title": "Viewing Various Work loads  Part1 ",
+            "title": "Viewing Various Work loads  ",
             "text": "Project.md"
-        },
-                  {
-            "title": "Viewing Various Work loads  Part2 ",
-            "text": "Deploy.md"
-        } ,
-                   {
-            "title": "Understand Kubelet & kubeproxy ",
-            "text": "kubelet.md"
-        }          
+        }       
                 ],
         "intro": {
             "code": "set-env.sh",
