@@ -26,7 +26,11 @@
                   {
             "title": "Understading Project quotas ",
             "text": "Deploy.md"
-        }           
+        }  , 
+                  {
+            "title": "Controlling resource consumption using LimitRanges ",
+            "text": "User.md"
+        }         
                 ],
         "intro": {
             "code": "set-env.sh",
