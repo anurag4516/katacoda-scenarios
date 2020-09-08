@@ -19,15 +19,15 @@
             "text": "Login.md"
         },
                  {
-            "title": "Understand Controllers ",
+            "title": "Deploying Application via cli ",
             "text": "User.md"
         },
                   {
-            "title": "Understand Schedular's ",
+            "title": "Viewing Various Work loads  Part1 ",
             "text": "Project.md"
         },
                   {
-            "title": "Understand Etcd ",
+            "title": "Viewing Various Work loads  Part2 ",
             "text": "Deploy.md"
         } ,
                    {
