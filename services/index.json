@@ -19,17 +19,10 @@
             "text": "Login.md"
         },
                  {
-            "title": "Check User & Permissions",
+            "title": "Check For Sevices ",
+            "code": "foreground.sh",         
             "text": "User.md"
-        },
-                  {
-            "title": "Create a Project",
-            "text": "Project.md"
-        },
-                  {
-            "title": "Deploy a template ",
-            "text": "Deploy.md"
-        }           
+        }
                 ],
         "intro": {
             "code": "set-env.sh",
