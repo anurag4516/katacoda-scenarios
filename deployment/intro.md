@@ -1,5 +1,8 @@
-Applications deployed on top of OpenShift can benefit on having metrics deployed to be able to watch pods resource consumption in the web console and use the horizontally pod autoscaler to create autoscale rules for pods so a consumption threshold is reached, the pods will be automatically scaled up.
+ Cloud Passion Premium Instructor (We thrive for exellence)
+ 
+ 
+This repo is intended to supplement training courses and external projects related to Cloud trainings provided by Cloud passion. It is not affiliated with HashiCorp or any other company  and should not be treated as such. Content shared here is targeted for students looking for additional content or content referenced in material created for educational purposes.
 
-This course will show the metrics deployment based on hawkular-metrics, how to gather information from the web console and using the oc tool and how to create a sample horizontal pod autoscaler and test it.
+<iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/bfnxWbeP6ZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-NOTE: The metrics deployment can take a few minutes to be ready as there are some components that needs to be deployed at run time. If you are curious, take a look at the process involved on deploying metrics while they are provisioned.
+@Copy_right Cloud passion
