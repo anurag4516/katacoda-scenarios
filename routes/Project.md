@@ -1,1 +1,3 @@
-Create a Project
+## View Actually running Application 
+
+Login to console 
