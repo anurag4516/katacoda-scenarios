@@ -1,6 +1,9 @@
 ## View Actually running Application 
 
 Login to console 
+<pre>
+![Katacoda Logo](./assets/Selectport.PNG)
+</pre>
 
 ![Katacoda Logo](./assets/Selectport.PNG)
 
