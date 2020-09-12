@@ -13,10 +13,10 @@
 export AWS_ACCESS_KEY_ID={your Cred}    
 export AWS_SECRET_ACCESS_KEY={yourcred}  
 
-#### Wget your .pem file here
-wget {{url}}
+#### Wget your .pem file here  
+wget {{url}}  
 
-#### Chnage Permisiions of .pem
-chmod 400 {{yourpemname}}
+#### Chnage Permisiions of .pem  
+chmod 400 {{yourpemname}}  
 
 `terraform apply -auto-approve`{{execute}}  
