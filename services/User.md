@@ -31,7 +31,7 @@ Validate if you are able to see application
 
 Select Port to view
 
-![Katacoda Logo](assets/Selectport.PNG)
+![Katacoda Logo](assets/Selectport.png)
 
 Enter Port 32000 and view application  
 ![Katacoda Logo1](assets/enterport.PNG)
