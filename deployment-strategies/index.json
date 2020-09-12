@@ -1,13 +1,13 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Deployment Strategies ",
+    "title": "Anurag ThoughtsWork",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
     "time": "60 minutes",
-    "backend": {
-        "imageid": "openshift-4-2"
-    },
+   "backend": {
+    "imageid": "ubuntu:2004"
+  }
     "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
