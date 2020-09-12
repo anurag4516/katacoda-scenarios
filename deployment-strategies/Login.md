@@ -22,3 +22,5 @@ chmod 400 {{yourpemname}}
 `terraform init`{{execute}}
 
 `terraform apply -auto-approve`{{execute}}  
+
+`terraform destroy`{{execute}}
