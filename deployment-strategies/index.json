@@ -2,17 +2,15 @@
     "icon": "fa-openshift",
     "title": "Anurag ThoughtsWork",
     "description": "",
-    "pathwayTitle": "OpenShift",
+    "pathwayTitle": "HashiCorp terraform Deployment + CM via Ansible ",
     "difficulty": "beginner",
     "time": "60 minutes",
    "backend": {
     "imageid": "ubuntu:2004"
   },
-    "environment": {
-        "showdashboard": true,
-        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
-        "uilayout": "terminal-iframe"
-    },
+     "environment": {
+    "uilayout": "terminal"
+  },
     "details": {
         "steps": [{
             "title": "Login to Cluster",
@@ -32,7 +30,7 @@
         }           
                 ],
         "intro": {
-            "code": "set-env.sh",
+           "courseData": "background.sh",
             "text": "intro.md"
         },
         "finish": {
