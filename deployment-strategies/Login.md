@@ -17,6 +17,8 @@ export AWS_SECRET_ACCESS_KEY={yourcred}
 wget {{url}}  
 
 #### Chnage Permisiions of .pem  
-chmod 400 {{yourpemname}}  
+chmod 400 {{yourpemname}} 
+
+`terraform init`{{execute}}
 
 `terraform apply -auto-approve`{{execute}}  
