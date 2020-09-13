@@ -34,6 +34,6 @@ Select Port to view
 ![Katacoda Logo](https://github.com/anurag4516/katacoda-scenarios/blob/master/services/assets/Selectport.PNG)
 
 Enter Port 32000 and view application  
-![Katacoda Logo1](assets/enterport.PNG)
+![Katacoda Logo1](https://github.com/anurag4516/katacoda-scenarios/blob/master/services/assets/enterport.PNG)
 
 
