@@ -3,7 +3,7 @@
 Login to console 
 
 
-![Katacoda Logo](https://assetsofkatakoda.s3.us-east-2.amazonaws.com/assets/Selectport.PNG)
+![Katacoda Logo](https://assetsofkatakoda.s3.us-east-2.amazonaws.com/assets/Selectport.png)
 
 Select Developer Precpective 
 
