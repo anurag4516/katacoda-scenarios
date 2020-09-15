@@ -10,6 +10,13 @@ Select Developer Precpective
 ![Katacoda Logo1](https://assetsofkatakoda.s3.us-east-2.amazonaws.com/assets/Webconsole.PNG)
 
 
-Select Routes and view Application
+Select Routes and view Application  
 
 ![Katacoda Logo2](https://assetsofkatakoda.s3.us-east-2.amazonaws.com/assets/Routesdservices.PNG)
+
+Click on ImageStream and go to History  
+
+![Katacoda Logo2](https://assetsofkatakoda.s3.us-east-2.amazonaws.com/assets/ListOfImages.PNG)   
+
+
+
