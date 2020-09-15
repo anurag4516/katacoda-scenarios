@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Roues ",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Routes ",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -27,6 +27,11 @@
             "title": "Check For Routes ",
                  
             "text": "Project.md"
+        },
+                   {
+            "title": "Check For Images Streams ",
+                 
+            "text": "Deploy.md"
         }
                 ],
         "intro": {
