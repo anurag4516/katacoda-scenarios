@@ -5,8 +5,16 @@
   "time": "20 minute",
   "details": {
     "steps": [{
-        "title": "Prerequisites",
+        "title": "Install Terraform",
         "text": "Login.md"
+      },
+              {
+        "title": "Using  Terraform apply",
+        "text": "Deploy.md"
+      },
+               {
+        "title": "Undestanding State file in terraform Apply ",
+        "text": "Project.md"
       }
      
     ],
