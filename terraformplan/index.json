@@ -10,11 +10,11 @@
       },
               {
         "title": "Understanding Terraform plan",
-        "text": "Deploy.md"
+        "text": "Project.md"
       },
                {
         "title": "Understanding Terraform fmt ",
-        "text": "Project.md"
+        "text": "Deploy.md"
       }
      
     ],
