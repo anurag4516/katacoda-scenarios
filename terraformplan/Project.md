@@ -20,6 +20,5 @@ You can connect to aws via following mechanism :
 export AWS_ACCESS_KEY_ID={your Cred}    
 export AWS_SECRET_ACCESS_KEY={yourcred}  
 
-## Clone the Project 
-`git clone https://github.com/cloudpassion1801/challenge1.git`{{execute}}  
-`cd challenge1`{{execute}}  
+## Try using terraform plan
+`terraform plan`{{ execute }}  
