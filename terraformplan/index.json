@@ -1,12 +1,20 @@
 {
   "title": "Anurag Solution to thought works: 12 September",
-  "description": "Anurag Solution to thought works",
+  "description": "Cloud Passion: Understand terrafom plan",
   "difficulty": "Beginner",
   "time": "20 minute",
   "details": {
     "steps": [{
-        "title": "Prerequisites",
+        "title": "Install Terraform",
         "text": "Login.md"
+      },
+              {
+        "title": "Understanding Terraform plan",
+        "text": "Deploy.md"
+      },
+               {
+        "title": "Understanding Terraform fmt ",
+        "text": "Project.md"
       }
      
     ],
