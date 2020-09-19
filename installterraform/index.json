@@ -10,11 +10,11 @@
       },
               {
         "title": "Understanding Terraform Init",
-        "text": "Deploy.md"
+        "text": "Project.md"
       },
                {
         "title": "Connecting AWS to terraform ",
-        "text": "Project.md"
+        "text": "Deploy.md"
       }
      
     ],
