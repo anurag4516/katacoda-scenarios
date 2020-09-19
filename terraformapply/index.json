@@ -1,6 +1,6 @@
 {
   "title": "Anurag Solution to thought works: 12 September",
-  "description": "Cloud Passion: Understanding Terraform Apply",
+  "description": "Cloud Passion: Understand terrafom plan",
   "difficulty": "Beginner",
   "time": "20 minute",
   "details": {
@@ -9,12 +9,12 @@
         "text": "Login.md"
       },
               {
-        "title": "Using  Terraform apply",
-        "text": "Deploy.md"
+        "title": "Understanding Terraform plan",
+        "text": "Project.md"
       },
                {
-        "title": "Undestanding State file in terraform Apply ",
-        "text": "Project.md"
+        "title": "Understanding Terraform fmt ",
+        "text": "Deploy.md"
       }
      
     ],
